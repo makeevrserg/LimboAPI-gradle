@@ -34,7 +34,7 @@ allprojects {
         }
     }
 
-    checkstyle {
+    checkstyle {ddasdasd
         toolVersion = "10.12.1"
         configFile = file("$rootDir/config/checkstyle/checkstyle.xml")
         configProperties = mapOf("configDirectory" to "$rootDir/config/checkstyle")
